@@ -1,0 +1,59 @@
+#emailDisplay {
+    font-size: 50px;
+    display: flex;
+    color: #fff;
+    font-weight: 700;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#emailDisplay span {
+    font-size: 18px;
+    border-radius: 5px;
+    color: #aaa;
+    font-weight: 300;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    color: #000;
+    background-color: #000;
+    padding: 14px 20px;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+#emailDisplay span:hover {
+    background-color: #555;
+    color: #ddd;
+}
+
+#startPickerButton {
+    padding: 13px 20px 13px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    -webkit-appearance: none;
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 767px) {
+    #emailDisplay {
+        font-size: 32px;
+    }
+    
+    #emailDisplay span {
+        font-size: 20px;
+    }
+    
+    #startPickerButton {
+        padding: 10px 16px 14px;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 40px;
+        -webkit-appearance: none;
+        margin-top: 26px;
+        font-size: 16px;
+    }
+}
